@@ -1,8 +1,25 @@
 ## MAKING OUR OWN WEB BROWSER
-* This will be a interesting project if you love developing things which you use in your daily life like web browser.
-* Technologies we will be using mainly will be Python
-* Packages like tkinter for GUI, and more will be used (Will update as we progress with this project)
-* Will try to implement some unique features and it will be fun and too much learning.
+
+### Chapter - 1
+
+* parse a URL into a scheme, host, port, and path
+* connect to that host using the socket and ssl libraries
+* send an HTTP request to that host, including a Host header
+* split the HTTP response into a status line, headers, and a body
+* print the text (and not the tags) in the body.
+
+
+### Chapter - 2 
+
+* talks to your operating system to create a window
+* lays out the text and draws it to that window
+* listens for keyboard commands
+* scrolls the window in response
+
+**I also added page up scrolling as you would in a real browser along with page down scrolling .**
+
+
+
 
 
 Will be following this [guide](https://browser.engineering/) to make our browser project and implement our own features too.
